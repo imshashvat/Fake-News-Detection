@@ -5,6 +5,21 @@ from dotenv import load_dotenv
 load_dotenv()
 sys.path.insert(0, os.path.dirname(__file__))
 
+# ── Streamlit Cloud secrets → os.environ bridge ──────────────────────────────
+# On Streamlit Cloud, keys live in st.secrets (TOML).
+# Locally, load_dotenv() already populated os.environ from .env.
+# This bridge makes both work transparently.
+_SECRET_KEYS = [
+    "GEMINI_API_KEY", "NEWS_API_KEY", "GROQ_API_KEY",
+    "HUGGINGFACE_API_KEY", "GOOGLE_FACTCHECK_API_KEY", "GNEWS_API_KEY",
+]
+for _k in _SECRET_KEYS:
+    if _k not in os.environ:
+        try:
+            os.environ[_k] = st.secrets[_k]
+        except Exception:
+            pass  # key not set — handled gracefully by each module
+
 st.set_page_config(page_title="TruthLens — AI Fake News Detector", page_icon="🔍", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""

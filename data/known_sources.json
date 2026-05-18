@@ -1,0 +1,55 @@
+{
+  "fake_news": [
+    "naturalnews.com", "infowars.com", "beforeitsnews.com", "worldnewsdailyreport.com",
+    "empirenews.net", "nationalreport.net", "huzlers.com", "theonion.com",
+    "clickhole.com", "babylonbee.com", "thespoof.com", "newslo.com",
+    "abcnews.com.co", "cbsnews.com.co", "washingtonpost.com.co",
+    "usatoday.com.co", "nytimes.com.co", "bbc.com.co",
+    "worldtruth.tv", "yournewswire.com", "newspunch.com", "realnewsrightnow.com",
+    "disclose.tv", "stuppid.com", "topekacapitaljournal.com",
+    "civictribune.com", "celebtricity.com", "thepoke.co.uk",
+    "lastnightoffreedom.net", "uschronicle.com", "usatwentyfour.com",
+    "politicot.com", "usapoliticstoday.com", "thelastlineofdefense.org",
+    "americasfreedomfighters.com", "thefreepatriot.org", "libertywriters.com",
+    "trueactivist.com", "consciouslifenews.com", "themindunleashed.com",
+    "wakingtimes.com", "collective-evolution.com", "healthimpactnews.com",
+    "vaccinedamage.news", "ageofautism.com", "mercola.com",
+    "globalresearch.ca", "activistpost.com", "blacklistednews.com",
+    "21stcenturywire.com", "veteranstoday.com", "whatdoesitmean.com",
+    "sorcha.net", "rense.com", "rumormillnews.com", "henrymakow.com"
+  ],
+  "satire": [
+    "theonion.com", "clickhole.com", "babylonbee.com", "thespoof.com",
+    "newsthump.com", "thedailymash.co.uk", "waterfordwhispersnews.com",
+    "southend-news-network.com", "laprogressive.com", "fourthestatenews.com",
+    "empirenews.net", "newsbiscuit.com", "allnewspipeline.com",
+    "reductress.com", "seedmagazine.com", "dukechronicle.com"
+  ],
+  "highly_biased": [
+    "breitbart.com", "dailykos.com", "occupydemocrats.com",
+    "addictinginfo.org", "angrypatriotmovement.com", "rawstory.com",
+    "mediamatters.org", "townhall.com", "theblaze.com", "thedailywire.com",
+    "washingtonexaminer.com", "motherjones.com", "slate.com",
+    "huffpost.com", "dailycaller.com", "thefederalist.com",
+    "westernjournal.com", "pjmedia.com", "redstate.com"
+  ],
+  "credible": [
+    "reuters.com", "apnews.com", "bbc.com", "bbc.co.uk",
+    "nytimes.com", "washingtonpost.com", "theguardian.com",
+    "npr.org", "pbs.org", "cbsnews.com", "nbcnews.com",
+    "abcnews.go.com", "usatoday.com", "theatlantic.com",
+    "time.com", "bloomberg.com", "economist.com",
+    "sciencemag.org", "nature.com", "newscientist.com",
+    "factcheck.org", "snopes.com", "politifact.com",
+    "fullfact.org", "checkyourfact.com", "afp.com",
+    "dw.com", "france24.com", "aljazeera.com",
+    "thehill.com", "axios.com", "vox.com",
+    "wired.com", "technologyreview.com", "scientificamerican.com"
+  ],
+  "fact_checkers": [
+    "snopes.com", "factcheck.org", "politifact.com",
+    "fullfact.org", "checkyourfact.com", "boomlive.in",
+    "leadstories.com", "truthorfiction.com", "mediabiasfactcheck.com",
+    "hoax-slayer.net", "realorfake.news"
+  ]
+}
